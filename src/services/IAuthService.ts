@@ -1,4 +1,4 @@
 export interface IAuthService {
-    logIn(user: string, pass: string): boolean;
-    signUp(user: string, pass: string): boolean;
+    logIn(user: string, password: string): boolean;
+    signUp(user: string, password: string): boolean;
 }
